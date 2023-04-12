@@ -131,7 +131,7 @@ window.onload = function (e){
                     let choose = Math.floor(Math.random()*2)
                     let increase = this.level*Math.floor((Math.random()*10)+1)
                     
-                    this.events.push(`You bought relaxation materials for $${cost}, increasing your powerup rate by ${increase} 🛌`)
+                    this.events.push(`You bought relaxation materials for $${cost}, increasing your energy rate by ${increase} 🛌`)
 
                     // Increase Energy
                     this.energyIncrease += increase
