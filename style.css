@@ -1,0 +1,74 @@
+.title{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    /*display: flex;*/
+    padding: 10px;
+    background-color: hsl(0, 83%, 62%);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-bottom: 0px;
+}
+
+.stats{
+    display: flex;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+}
+
+.level{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    /*display: flex;*/
+    padding: 10px;
+    background-color: hsl(130, 83%, 68%);
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.buttons{
+    background-color: #be42f8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttons:hover {
+    background-color: #981cd1;
+}
+
+.tables {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#fight {
+    background-color: rgb(245, 88, 88);
+}
+#fight:hover {
+    background-color:  rgb(197, 46, 46);
+}
+
+#eventLog {
+    width: 400px;
+    margin:4px;
+    height: 200px;
+    background-color: hsla(251, 50%, 80%, 1);
+    border: 1px solid black;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    overflow: scroll;
+}
+
+.statistics, .eventLog{
+    display: inline-block;
+    vertical-align: bottom; /* align to top of parent element */
+}
